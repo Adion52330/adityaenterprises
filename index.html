@@ -394,7 +394,7 @@
     updateVisitCount();
 
     function updateVisitCount() {
-      fetch("https://api.countapi.xyz/update/aditya/factory/?amount=1")
+      fetch("https://api.countapi.xyz/update/adioncounter/products/?amount=1")
         .then((res) => res.json())
         .then((res) => {
           countEl.innerHTML = "Total Visits : " + res.value;
